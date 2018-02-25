@@ -1,0 +1,219 @@
+CM_ "IMPORT _honda_2017.dbc"
+
+BO_ 57 XXX_1: 3 XXX
+ SG_ CHECKSUM : 19|4@0+ (1,0) [0|15] "" EON
+ SG_ COUNTER : 21|2@0+ (1,0) [0|3] "" EON
+
+BO_ 145 XXX_2: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
+
+BO_ 316 XXX_3: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
+
+BO_ 340 XXX_4: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
+
+BO_ 342 STEERING_SENSORS: 6 EPS
+ SG_ STEER_ANGLE : 7|16@0- (-0.1,0) [-500|500] "deg" EON
+ SG_ STEER_ANGLE_RATE : 23|16@0- (1,0) [-3000|3000] "deg/s" EON
+ SG_ COUNTER : 45|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 43|4@0+ (1,0) [0|15] "" EON
+
+BO_ 401 GEARBOX: 8 PCM
+ SG_ GEAR_SHIFTER : 5|6@0+ (1,0) [0|63] ""  EON
+ SG_ GEAR : 35|4@0+ (1,0) [0|15] ""  EON
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] ""  EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] ""  EON
+
+BO_ 404 STEERING_CONTROL: 4 EON
+ SG_ STEER_TORQUE : 7|12@0- (1,0) [-768|768] "" EPS
+ SG_ SET_ME_X00 : 11|4@0+ (1,0) [0|15] "" EPS
+ SG_ STEER_TORQUE_REQUEST : 23|1@0+ (1,0) [0|1] "" EPS
+ SG_ SET_ME_X00 : 22|7@0+ (1,0) [0|127] "" EPS
+ SG_ COUNTER : 29|2@0+ (1,0) [0|15] "" EPS
+ SG_ CHECKSUM : 27|4@0+ (1,0) [0|3] "" EPS
+
+BO_ 420 VSA_STATUS: 8 VSA
+ SG_ USER_BRAKE : 7|16@0+ (0.015625,-1.609375) [0|1000] "" EON
+ SG_ ESP_DISABLED : 28|1@0+ (1,0) [0|1] "" EON
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
+
+BO_ 422 SCM_BUTTONS: 8 SCM
+ SG_ LIGHTS_SETTING : 1|2@0+ (1,0) [0|3] "" EON
+ SG_ EPBRAKE_BUTTON : 2|1@0+ (1,0) [0|1] "" EON
+ SG_ CRUISE_BUTTONS : 7|3@0+ (1,0) [0|7] "" EON
+ SG_ BREAKHOLD_PRESS : 8|1@0+ (1,0) [0|1] "" EON
+ SG_ CRUISE_SETTING : 43|2@0+ (1,0) [0|3] "" EON
+ SG_ CRUISE_MAIN_ON : 47|1@0+ (1,0) [0|1] "" EON
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
+
+BO_ 423 XXX_5: 2 XXX
+ SG_ COUNTER : 13|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 11|4@0+ (1,0) [0|15] "" EON
+
+BO_ 426 XXX_6: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
+
+BO_ 427 XXX_7: 3 XXX
+ SG_ COUNTER : 21|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 19|4@0+ (1,0) [0|15] "" EON
+
+BO_ 441 XXX_8: 5 XXX
+ SG_ COUNTER : 37|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 35|4@0+ (1,0) [0|15] "" EON
+
+BO_ 450 EPB_STATUS: 8 EPB
+ SG_ EPB_ACTIVE : 3|1@0+ (1,0) [0|1] "" EON
+ SG_ EPB_STATE : 29|2@0+ (1,0) [0|3] "" EON
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
+
+BO_ 474 XXX_9: 5 XXX
+ SG_ COUNTER : 37|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 35|4@0+ (1,0) [0|15] "" EON
+
+BO_ 476 XXX_10: 7 XXX
+ SG_ COUNTER : 53|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 51|4@0+ (1,0) [0|15] "" EON
+
+BO_ 493 XXX_11: 3 XXX
+ SG_ COUNTER : 21|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 19|4@0+ (1,0) [0|15] "" EON
+
+BO_ 507 XXX_12: 1 XXX
+ SG_ X_VALUE : 7|2@0+ (1,0) [0|3] "" XXX
+ SG_ COUNTER : 5|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 3|4@0+ (1,0) [0|15] "" EON
+
+BO_ 545 xxx_13: 4 XXX
+ SG_ COUNTER : 29|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 27|4@0+ (1,0) [0|15] "" EON
+
+BO_ 578 XXX_14: 2 XXX
+ SG_ COUNTER : 13|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 11|4@0+ (1,0) [0|15] "" EON
+
+BO_ 660 SCM_FEEDBACK: 8 SCM
+ SG_ RIGHT_BLINKER : 6|1@0+ (1,0) [0|1] "" EON
+ SG_ LEFT_BLINKER : 5|1@0+ (1,0) [0|1] "" EON
+ SG_ WIPERS_SPEED : 4|2@0+ (1,0) [0|3] "" EON
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" EON
+
+BO_ 661 XXX_15: 4 XXX
+ SG_ COUNTER : 29|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 27|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 800 MSGID_800: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 808 MSGID_808: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 882 MSGID_882: 2 XXX
+ SG_ COUNTER : 13|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 11|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 884 MSGID_884: 7 XXX
+ SG_ COUNTER : 53|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 51|4@0+ (1,0) [0|15] "" EON
+
+BO_ 891 WIPERS: 8 XXX
+ SG_ WIPERS : 17|2@0+ (1,0) [0|3] "" EON
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|3] "" EON
+
+BO_ 918 MSGID_918: 7 XXX
+ SG_ COUNTER : 53|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 51|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 983 MSGID_983: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 985 MSGID_985: 3 XXX
+ SG_ COUNTER : 21|2@0+ (1,0) [0|15] "" XXX
+ SG_ CHECKSUM : 19|4@0+ (1,0) [0|3] "" XXX
+
+BO_ 1024 MSGID_1024: 5 XXX
+ SG_ COUNTER : 37|2@0+ (1,0) [0|3] "" EON
+ SG_ CHECKSUM : 35|4@0+ (1,0) [0|15] "" EON
+
+BO_ 1027 MSGID_1027: 5 XXX
+ SG_ COUNTER : 37|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 35|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1030 MSGID_1030: 5 XXX
+ SG_ COUNTER : 37|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 35|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1033 MSGID_1033: 5 XXX
+ SG_ COUNTER : 37|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 35|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1036 MSGID_1036: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1039 MSGID_1039: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1064 MSGID_1064: 7 XXX
+ SG_ COUNTER : 53|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 51|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1108 MSGID_1108: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1115 MSGID_1115: 2 XXX
+ SG_ COUNTER : 13|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 11|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1125 MSGID_1125: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1137 MSGID_1137: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1296 MSGID_1296: 8 XXX
+ SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1348 MSGID_1348: 5 XXX
+ SG_ COUNTER : 37|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 35|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1361 MSGID_1361: 5 XXX
+ SG_ COUNTER : 37|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 35|4@0+ (1,0) [0|15] "" XXX
+
+BO_ 1365 MSGID_1365: 5 XXX
+ SG_ COUNTER : 37|2@0+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM : 35|4@0+ (1,0) [0|15] "" XXX
+
+CM_ SG_ 401 GEAR "10 = reverse, 11 = transition";
+CM_ SG_ 450 EPB_STATE "3: On, 2: Disengaging, 1: Engaging, 0: Off";
+
+VAL_ 399 STEER_STATUS 5 "fault" 4 "no_torque_alert_2" 2 "no_torque_alert_1" 0 "normal" ;
+VAL_ 401 GEAR_SHIFTER 32 "L" 16 "S" 8 "D" 4 "N" 2 "R" 1 "P" ;
+VAL_ 401 GEAR 7 "L" 10 "S" 4 "D" 3 "N" 2 "R" 1 "P" ;
+VAL_ 422 CRUISE_BUTTONS 7 "tbd" 6 "tbd" 5 "tbd" 4 "accel_res" 3 "decel_set" 2 "cancel" 1 "main" 0 "none" ;
+VAL_ 422 LIGHTS_SETTING 3 "high_beam" 2 "low_beam" 1 "position" 0 "no_lights" ;
+VAL_ 422 CRUISE_SETTING 3 "distance_adj" 2 "tbd" 1 "lkas_button" 0 "none" ;
+VAL_ 450 EPB_STATE 3 "on" 2 "disengaging" 1 "engaging" 0 "off" ;
+VAL_ 660 WIPERS_SPEED 3 "high" 2 "low" 1 "intermittent" 0 "off" ;
+VAL_ 891 WIPERS 2 "High" 1 "Low" 0 "Off" ;
+
+CM_ "CHFFR_METRIC 342 STEER_ANGLE STEER_ANGLE 0.36 180; CHFFR_METRIC 380 ENGINE_RPM ENGINE_RPM 1 0; CHFFR_METRIC 804 ENGINE_TEMPERATURE ENGINE_TEMPERATURE 1 0";
